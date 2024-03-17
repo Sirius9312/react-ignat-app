@@ -1,0 +1,46 @@
+@import '../../styles/vars/vars.scss';
+
+.comment {
+  cursor: pointer;
+  width: 270px;
+  box-sizing: border-box;
+  padding: 30px 37px;
+  border: 1px solid $black;
+  border-radius: 10px;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+
+  &__avatar-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__stars {
+    display: flex;
+    column-gap: 4px;
+  }
+
+  &__name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: $black;
+  }
+
+  &__comment {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray;
+  }
+}

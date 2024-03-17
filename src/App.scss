@@ -1,0 +1,49 @@
+@import './styles/vars/vars.scss';
+@import './styles/blocks/container.scss';
+@import './styles/blocks/grid-cover.scss';
+@import './styles/blocks/logo.scss';
+@import './styles/blocks/icon.scss';
+@import './styles/blocks/nav-menu.scss';
+@import './styles/blocks/for-your-friends.scss';
+@import './styles/blocks/carousel.scss';
+@import './styles/blocks/stocks.scss';
+@import './styles/blocks/separator.scss';
+@import './styles/blocks/more-info.scss';
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1366px;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: $dark-gray;
+}
+
+.App {
+  &__header {
+    margin-bottom: 36px;
+  }
+
+  &__for-your-friends {
+    margin-bottom: 80px;
+  }
+
+  &__hot-products {
+    margin-bottom: 80px;
+  }
+
+  &__stocks {
+    margin-bottom: 108px;
+  }
+
+  &__comments {
+    margin-bottom: 157px;
+  }
+
+  &__more-info {
+    margin-bottom: 52px;
+  }
+}

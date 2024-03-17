@@ -1,0 +1,52 @@
+@import '../../styles/vars/vars.scss';
+
+.title-arrows-carousel-container {
+  margin-bottom: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+
+    &--comment-title {
+      font-weight: 400;
+    }
+  }
+
+  &__carousel-arrows-pages-container {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__pages {
+    display: flex;
+    column-gap: 3px;
+  }
+
+  &__current-page {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  &__arrow {
+    cursor: pointer;
+    border: none;
+    background-color: $white;
+
+    &--disable {
+      cursor: auto;
+    }
+  }
+}
