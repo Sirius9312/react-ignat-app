@@ -1,0 +1,79 @@
+.icon {
+  position: relative;
+  display: block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 23px;
+  padding-bottom: 23px;
+  text-decoration: none;
+
+  &--search {
+    border: none;
+    width: 21px;
+    padding-bottom: 21px;
+    background-image: url(../../img/search-icon.svg);
+  }
+
+  &--favourites {
+    cursor: pointer;
+    border: none;
+    background-color: $white;
+    background-image: url(../../img/heart.svg);
+  }
+
+  &--cart {
+    cursor: pointer;
+    border: none;
+    background-color: $white;
+    background-image: url(../../img/cart.svg);
+  }
+
+  &--star {
+    width: 12px;
+    padding-bottom: 12px;
+    background-image: url(../../img/star.svg);
+  }
+
+  &--active-star {
+    width: 12px;
+    padding-bottom: 12px;
+    background-image: url(../../img/active-star.svg);
+  }
+
+  &--header-left-arrow {
+    width: 17px;
+    padding-bottom: 32px;
+    background-image: url(../../img/left-header-arrow.svg);
+  }
+
+  &--header-right-arrow {
+    width: 17px;
+    padding-bottom: 32px;
+    background-image: url(../../img/right-header-arrow.svg);
+  }
+
+  &--carousel-enable-left-arrow {
+    width: 25px;
+    padding-bottom: 10px;
+    background-image: url(../../img/carousel-left-enabled-arrow.png);
+  }
+
+  &--carousel-enable-right-arrow {
+    width: 25px;
+    padding-bottom: 10px;
+    background-image: url(../../img/carousel-right-enabled-arrow.png);
+  }
+
+  &--carousel-disable-left-arrow {
+    width: 25px;
+    padding-bottom: 10px;
+    background-image: url(../../img/carousel-left-disabled-arrow.png);
+  }
+
+  &--carousel-disable-right-arrow {
+    width: 25px;
+    padding-bottom: 10px;
+    background-image: url(../../img/carousel-right-disabled-arrow.png);
+  }
+}

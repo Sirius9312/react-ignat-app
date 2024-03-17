@@ -1,0 +1,43 @@
+@import '../../styles/vars/vars.scss';
+
+.hot-product {
+  width: 370px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &__photo-container {
+    margin-bottom: 15px;
+  }
+
+  &__image {
+    width: 370px;
+  }
+
+  &__title {
+    margin: 0 0 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  &__info {
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: $gray;
+
+    &:last-child {
+      margin: 0 0 17px;
+    }
+  }
+
+  &__price {
+    margin: 0;
+    color: $green;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

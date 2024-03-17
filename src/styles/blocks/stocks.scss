@@ -1,0 +1,63 @@
+.stocks {
+  &__container {
+    grid-column: 4 / 10;
+    padding: 0 5px;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px;
+  }
+
+  &__title {
+    grid-column: 1 / 7;
+    text-align: center;
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 38px;
+  }
+
+  &__info {
+    grid-column: 1 / 7;
+    margin: 0 0 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  &__form-container {
+    grid-column: 1 / 7;
+    border: 1px solid $gray;
+    border-radius: 15px;
+  }
+
+  &__form {
+    display: flex;
+  }
+
+  &__field {
+    border-radius: 15px;
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    padding: 13px 0 13px 18px;
+
+    &:focus {
+      &::placeholder {
+        color: transparent;
+      }
+    }
+  }
+
+  &__button {
+    padding: 15px 35px;
+    cursor: pointer;
+    background-color: $gray;
+    color: $white;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+  }
+}
