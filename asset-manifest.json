@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-ignat-app/static/css/main.1a9ef097.css",
+    "main.js": "/react-ignat-app/static/js/main.302fd664.js",
+    "static/media/main-image.jpg": "/react-ignat-app/static/media/main-image.f003ac1e9a0693639890.jpg",
+    "static/media/cart.svg": "/react-ignat-app/static/media/cart.0ef150ab71e93bc58666.svg",
+    "static/media/star.svg": "/react-ignat-app/static/media/star.260f2ecdcfe1b67c3176.svg",
+    "static/media/active-star.svg": "/react-ignat-app/static/media/active-star.866217b7dd1ad1644ae1.svg",
+    "static/media/heart.svg": "/react-ignat-app/static/media/heart.06ad5e9cdc412c1822f3.svg",
+    "index.html": "/react-ignat-app/index.html",
+    "static/media/search-icon.svg": "/react-ignat-app/static/media/search-icon.88d53e1a8aa4c4bd24bf.svg",
+    "static/media/right-header-arrow.svg": "/react-ignat-app/static/media/right-header-arrow.c606a29c242bdd25585b.svg",
+    "static/media/left-header-arrow.svg": "/react-ignat-app/static/media/left-header-arrow.a93a17c9c76783670d61.svg",
+    "main.1a9ef097.css.map": "/react-ignat-app/static/css/main.1a9ef097.css.map",
+    "main.302fd664.js.map": "/react-ignat-app/static/js/main.302fd664.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a9ef097.css",
+    "static/js/main.302fd664.js"
+  ]
+}
